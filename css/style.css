@@ -54,7 +54,12 @@ a:visited {
 .help__text {
 	padding-top: 20px;
 	padding-bottom: 20px;
+	font-size: 20px;
 	font-weight: bold;
+}
+
+.help__painting-panel {
+	padding-bottom: 10px;
 }
 
 .main-panel {
@@ -75,6 +80,8 @@ a:visited {
 }
 
 .top-panel__links-panel {
+	display: flex;
+	align-items: flex-end;
 }
 
 .top-panel__links-panel__text {
