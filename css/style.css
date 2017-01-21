@@ -27,11 +27,81 @@ body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
+	padding: 0;
+	color: #000;
+	background-color: #fff;
+	background-image: url("papyrus-back.jpg");	
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+	color: #339;	
+}
+
+.help__main-panel {
+	height: 100%;
 	padding: 10px;
-	color: #fff;
-	background-color: #444;
+}
+
+.help__top-panel__logo-panel {
+	width: 450px;
+	height: 106px;
+	background-image: url("senet-logo.png");
+}
+
+.help__text {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: bold;
 }
 
 .main-panel {
 	height: 100%;
+	width: 869px;
+	padding: 10px;
+}
+
+.top-panel {
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-panel__logo-panel {
+	width: 450px;
+	height: 106px;
+	background-image: url("senet-logo.png");
+}
+
+.top-panel__links-panel {
+}
+
+.top-panel__links-panel__text {
+	font-size: 24px;
+}
+
+.board-panel {
+	width: 849px;
+	height: 289px;
+	background-image: url("senet-board.png");
+}
+
+.sticks-panel {
+	display: flex;
+	justify-content: space-between;
+}
+
+.sticks-panel__player-icon {
+	margin-top: 20px;
+}
+
+.sticks-panel__sticks-img {
+}
+
+.message-panel {
+}	
+
+.message-panel__message {
+	font-size: 36px;
 }

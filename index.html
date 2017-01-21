@@ -3,7 +3,7 @@
 		<title>Senet</title>
 		<meta charset="UTF-8"/>
 		<meta name="description" content="Senet"/>
-		<meta name="keywords" content="Senet"/>
+		<meta name="keywords" content="senet,game"/>
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<script src="lib/angular.min.js"></script>
 		<script src="js/main-app.js"></script>
@@ -12,8 +12,21 @@
 	</head>
 	<body ng-controller="mainCtrl">
 		<div id="main-panel" class="main-panel">
-			<div>
-				Senet
+			<div class="top-panel">
+				<div class="top-panel__logo-panel"></div>
+				<div class="top-panel__links-panel">
+					<a class="top-panel__links-panel__text" href="help.html" target="_blank">Help</a>
+				</div>				
+			</div>
+			<div class="board-panel">
+			</div>
+			<div class="sticks-panel">
+				<div><img src="img/EagleRB.png"/ class="sticks-panel__player-icon"></div>
+				<div><img src="img/Sticks0b.png" class="sticks-panel__sticks-img"/></div>
+				<div><img src="img/AnubisLB.png"/ class="sticks-panel__player-icon"></div>
+			</div>
+			<div class="message-panel">
+				<span class="message-panel__message">{{model.message}}</span>
 			</div>
 		</div>
 	</body>
