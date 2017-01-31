@@ -95,6 +95,14 @@ a:visited {
 	background-image: url("senet-board.png");
 }
 
+.board {
+	position: relative;
+	left: 25px;
+	top: 25px;
+	width: 800px;
+	height: 240px;
+}
+
 .sticks-panel {
 	display: flex;
 	justify-content: space-between;
